@@ -1,6 +1,7 @@
 #!/bin/sh
 
 # this catches focus cases in Jasmine: 'fdescribe' 'fcontext' 'fit' 'fspecify' 'fexample'
+# use a precommit module such as https://www.npmjs.com/package/husky to run as a standard pre-commit hook
 
 bold=$(tput bold)
 normal=$(tput sgr0)
