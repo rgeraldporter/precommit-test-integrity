@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# this catches focus cases in Jasmine: 'fdescribe' 'fcontext' 'fit' 'fspecify' 'fexample'
+
 bold=$(tput bold)
 normal=$(tput sgr0)
 red=$(tput setaf 1)
